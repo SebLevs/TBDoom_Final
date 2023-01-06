@@ -1,5 +1,6 @@
 # TBDoom_Final
-Final version of TBDoom <br />
+Final updated version of TBDoom <br />
+Contains behaviour tree, JSon based loading of levels and everything else that is not included in TBDoom <br />
 
 ... Copy of base Repository <br />
 https://github.com/Radamnation/TBDoom
