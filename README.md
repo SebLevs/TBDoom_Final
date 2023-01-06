@@ -1,7 +1,8 @@
 # TBDoom_Final
-Version Finale de TBDoom <br />
+Final version of TBDoom <br />
 
-Équipe de René Adam Richer et Sébastien Lévesque <br />
+... Copy of base Repository
+https://github.com/Radamnation/TBDoom
 
 ... OWNERS' GITHUBS <br />
 René Adam-Richer: https://github.com/Radamnation?tab=repositories <br />
