@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac1e1a2bab9b1154296e495ae235b2c5, type: 3}
+  m_Name: SOPickableAmmo+1
+  m_EditorClassIdentifier: 
+  pickableName: Ammo
+  sprite: {fileID: 21300000, guid: d8819bb965cef284ab3c5b2098314bc8, type: 3}
+  color: {r: 1, g: 0.9490197, b: 0.3803922, a: 1}
+  healthValueIsPercent: 0
+  healthValue: 0
+  armorValueIsPercent: 0
+  armorValue: 0
+  ammoValueIsPercent: 0
+  ammoValue: 1
+  secondaryValueIsPercent: 0
+  secondaryValue: 0
+  currencyValue: 0
+  pickableUISprite: {fileID: 0}
+  merchantPrice: 0
+  description: A single round of ammunition

@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &413003320531596093
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 413003320531596083}
+  - component: {fileID: 413003320531596082}
+  m_Layer: 0
+  m_Name: ItemFactory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &413003320531596083
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413003320531596093}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &413003320531596082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413003320531596093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994c48dd81a17e443bde9f4752668e05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickables:
+  - {fileID: 11400000, guid: 8f38bfb2b051b6849aeaa5efbfe9056b, type: 2}
+  - {fileID: 11400000, guid: 79c9cd20030c94e45bab3bcb0820171c, type: 2}
+  - {fileID: 11400000, guid: 3bc0b413b614a154ba117df8b13fe767, type: 2}
+  - {fileID: 11400000, guid: b17c6611aa522614b9d3ce875f4ccecc, type: 2}
+  - {fileID: 11400000, guid: 3f4feecee30f0304b8a106a3576d4a8b, type: 2}
+  weapons:
+  - {fileID: 11400000, guid: 2fec7de208af184448023900d178369c, type: 2}
+  - {fileID: 11400000, guid: 9b3bd99fc8d650141a02a158c813cfa7, type: 2}
+  - {fileID: 11400000, guid: 38e6bcc42d089514091064afffb4928c, type: 2}
+  - {fileID: 11400000, guid: ec9d4abc323acb34ea41ebf4604d0242, type: 2}
+  - {fileID: 11400000, guid: a568e3c9f18dc644eb3713d6f731f08d, type: 2}
+  - {fileID: 11400000, guid: f85df85a504f5804db1afc427de2431b, type: 2}
+  - {fileID: 11400000, guid: e80815808ef4c764ca7a2e42fee6ab99, type: 2}
+  - {fileID: 11400000, guid: 53332e9a227c9ac4c880d61fe6be30c7, type: 2}
+  - {fileID: 11400000, guid: 10938a7e363b7c84ea4ad14ce7ef1d5d, type: 2}
+  - {fileID: 11400000, guid: e62059f674a03b8468df7757b1fcd8b2, type: 2}
+  projectileStrategies:
+  - {fileID: 11400000, guid: 3343237d9002e2f4b91b606acbe89953, type: 2}
+  - {fileID: 11400000, guid: 4c54365300f1b044fafa0f3e97e358fc, type: 2}
+  - {fileID: 11400000, guid: 37a169ddd355fd640ab27d836ee83fa6, type: 2}
+  - {fileID: 11400000, guid: 75f8b20ecfbe90f44b66cf91295db41b, type: 2}
+  - {fileID: 11400000, guid: 93764d48fd5097646a7438d9dc4410ad, type: 2}
+  - {fileID: 11400000, guid: 3f79981c52ee6274f95685e78ffcb567, type: 2}
+  - {fileID: 11400000, guid: 87b06efc7cf8d98429fc208a980f2bb4, type: 2}
+  - {fileID: 11400000, guid: 01460db2c16130042a5e14df8df7758d, type: 2}
+  meleeProjectileStrategies:
+  - {fileID: 11400000, guid: 75f8b20ecfbe90f44b66cf91295db41b, type: 2}
+  - {fileID: 11400000, guid: 4c54365300f1b044fafa0f3e97e358fc, type: 2}
+  - {fileID: 11400000, guid: 37a169ddd355fd640ab27d836ee83fa6, type: 2}

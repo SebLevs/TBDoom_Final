@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cedee96b52e30f46b59fa16b272d813, type: 3}
+  m_Name: SO _ TextBubble
+  m_EditorClassIdentifier: 
+  textSpeed: {fileID: 11400000, guid: 3abd991cf71bc564fa6993d803fe27dd, type: 2}
+  backColor: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 1}
+  frontColor: {r: 0.9056604, g: 0.849481, b: 0.6100392, a: 1}
+  fontSize: {fileID: 11400000, guid: 043d725c06d26844aad23bf32a37a56d, type: 2}
+  characterSpacing: {fileID: 11400000, guid: b4a2426a51a8c6b4688ec7f163453fd2, type: 2}
+  lineSpacing: {fileID: 11400000, guid: 6d88f5347386d4348b2891b00a036f9c, type: 2}

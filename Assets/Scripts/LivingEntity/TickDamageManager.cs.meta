@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: f8f2286d898a73b45b7103a8c212c194
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - tickDamagePrefab: {fileID: 2958271035531996044, guid: 7b897dec216d198458b89c7b8e37b029, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46456b2134d27044cadf3e1fb46d86f3, type: 3}
+  m_Name: SO_PS_DropObjectOnImpact
+  m_EditorClassIdentifier: 
+  isDebugOn: 0
+  m_projectileStrategyType: 7
+  m_projectileStrategyExecutionType: 2
+  m_exceptionProjectileStrategyType: 
+  m_strategyName: DropObjectOnImpact
+  m_strategyDescription: DropObjectOnImpact description
+  m_targetMask:
+    serializedVersion: 2
+    m_Bits: 0
+  m_probability: 100
+  m_onlyAppliesOnLivingEntity: 0
+  m_livingEntity: {fileID: 0}
+  m_projectile: {fileID: 0}
+  m_collider: {fileID: 0}
+  m_particleSystem: {fileID: 0}
+  m_sprite: {fileID: 0}
+  myDrops:
+  - {fileID: 6386327162929925366, guid: f89317c95e6d2af49b63f36ebd950616, type: 3}
+  impulseForce: 4
+  minDrop: 15
+  maxDrop: 20
+  damage: 0

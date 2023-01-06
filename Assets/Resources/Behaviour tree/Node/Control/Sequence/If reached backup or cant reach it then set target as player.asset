@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b21d917a184c0947bd61692fc107a37, type: 3}
+  m_Name: If reached backup or cant reach it then set target as player
+  m_EditorClassIdentifier: 
+  children:
+  - {fileID: 11400000, guid: 0e10ffb3c11b42d4694fa134c3295162, type: 2}
+  - {fileID: 11400000, guid: 6cf4b061fdadae74682247c1e07f933e, type: 2}

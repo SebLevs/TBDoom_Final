@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7ffb8b78b91f3f478da11521f8a00d8, type: 3}
+  m_Name: Root_ED-Cubus
+  m_EditorClassIdentifier: 
+  children:
+  - {fileID: 11400000, guid: d47f5a06c3bddf24688ad36aae7295cd, type: 2}
+  - {fileID: 11400000, guid: 7248006881d54274d9b614ddac28f883, type: 2}
+  - {fileID: 11400000, guid: e967453626db21143ba386ac43b11bcb, type: 2}
+  - {fileID: 11400000, guid: 9b658db2272fff541a843d9ce3e21b81, type: 2}

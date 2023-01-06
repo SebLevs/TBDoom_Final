@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62355733d51508349b066ba42d18111e, type: 3}
+  m_Name: SO_Weapon_ED-Cubus_Melee
+  m_EditorClassIdentifier: 
+  itemName: ED-Cubus's knockback Missile
+  itemDescription: Get over there!
+  itemValue: 1000
+  itemSprite: {fileID: 1754797649, guid: 510812d92e72e1941887c7b675838739, type: 3}
+  weaponName: 
+  weaponDescription: 
+  infiniteAmmo: 1
+  infiniteClip: 0
+  m_weaponType: 0
+  isMain: 0
+  isSecondary: 0
+  isMelee: 1
+  m_projectileDefinition: {fileID: 11400000, guid: 32fa75c01cc479b438b449c24b07020c, type: 2}
+  currencyValue: 1000
+  canFireContinuously: 0
+  canBeCharged: 0
+  startingAmmo: 1
+  currentAmmo: 1
+  maxAmmo: 1
+  startingClip: 1
+  currentClip: 1
+  maxClip: 1
+  firingRate: 1
+  reloadTime: 0
+  impulsionDirection: {x: 0, y: 0, z: 0}
+  impulsionForce: 0
+  damage: 25
+  knockback: 150
+  spread: 10
+  range: 2.5
+  bulletsNumber: 10
+  chargeTime: 0
+  needsFullCharge: 0
+  shootingStrategy: {fileID: 11400000, guid: c85fe1238f49d75428b7008cbfdfac4a, type: 2}
+  projectileStrategies:
+  - {fileID: 11400000, guid: 3343237d9002e2f4b91b606acbe89953, type: 2}
+  - {fileID: 11400000, guid: 75f8b20ecfbe90f44b66cf91295db41b, type: 2}
+  bulletHole: {fileID: 0}
+  weaponUISprite: {fileID: 1754797649, guid: 510812d92e72e1941887c7b675838739, type: 3}
+  weaponPlayerSprite: {fileID: 2086851517, guid: a652647c823094342b9db72dd89d7589, type: 3}
+  weaponFiringPlayerSprite: {fileID: 1587717104, guid: a652647c823094342b9db72dd89d7589, type: 3}
+  animator: {fileID: 0}
+  shootingSound:
+  - {fileID: 8300000, guid: 923a34eeb7ae18648878cf78218ba370, type: 3}
+  - {fileID: 8300000, guid: 961d57a2b2df1394397a7bf49c818a48, type: 3}
+  - {fileID: 8300000, guid: 749f235f0c9f679418b1150319286ac7, type: 3}
+  - {fileID: 8300000, guid: 6d185efe55840494da13c7d6475765c0, type: 3}
+  reloadSentenceSound:
+  - {fileID: 8300000, guid: 5d240e5c580e9e7419b913460135938b, type: 3}
+  - {fileID: 8300000, guid: ae2d3601ced01ef44bf3c050f4435bd4, type: 3}
+  - {fileID: 8300000, guid: 463335d120814bc48b2af6bb98b01182, type: 3}
+  reloadSound: {fileID: 8300000, guid: 4ce28391c426cc240b4057e93540cd9d, type: 3}
+  emptyClickSound: {fileID: 8300000, guid: 944bd3f25f83dad4baea5cd7afb251a3, type: 3}

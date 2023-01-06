@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb3d886e4a1acc14c92cc892a8760a62, type: 3}
+  m_Name: SpecialRoom
+  m_EditorClassIdentifier: 
+  floorPrefab: {fileID: 1208537903591744397, guid: 236021a54a3f44449801f2cbf466ea38, type: 3}
+  wallPrefab: {fileID: 1074960693379189151, guid: b5a7d258efbf53e4c93998a180b509f2, type: 3}
+  ceilingPrefab: {fileID: 4487208555774192997, guid: 2426d10f1e1ff1a488fb724f98ca27ba, type: 3}
+  doorPrefab: {fileID: 4751135615461792068, guid: 597072d686fb23a4784415bbc1836148, type: 3}

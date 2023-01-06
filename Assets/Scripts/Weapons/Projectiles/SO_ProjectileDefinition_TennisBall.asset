@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71d296af2c62d634c9ed106919938216, type: 3}
+  m_Name: SO_ProjectileDefinition_TennisBall
+  m_EditorClassIdentifier: 
+  m_projectileType: 0
+  m_projectileSpeed: 5
+  m_colliderRadius: 0.1
+  m_colliderHeight: 0.2
+  m_affectedByGravity: 1
+  m_physicalProjectileSprites:
+  - {fileID: -1929639719, guid: fdcc64d318824804090b17cead19e130, type: 3}
+  - {fileID: -1107359465, guid: fdcc64d318824804090b17cead19e130, type: 3}
+  - {fileID: 1395638046, guid: fdcc64d318824804090b17cead19e130, type: 3}
+  - {fileID: 203447709, guid: fdcc64d318824804090b17cead19e130, type: 3}
+  - {fileID: 907055047, guid: fdcc64d318824804090b17cead19e130, type: 3}
+  - {fileID: -1464178562, guid: fdcc64d318824804090b17cead19e130, type: 3}
+  - {fileID: -554978302, guid: fdcc64d318824804090b17cead19e130, type: 3}
+  - {fileID: -1874439225, guid: fdcc64d318824804090b17cead19e130, type: 3}
+  m_showRaycastTrajectory: 0
+  m_meleeProjectileSprite: {fileID: 0}
+  m_meleeProjectileWidth: 0
+  m_meleeProjectileThickness: 0

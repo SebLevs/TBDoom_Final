@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62355733d51508349b066ba42d18111e, type: 3}
+  m_Name: SO_Weapon_Primary_TennisBallCannon
+  m_EditorClassIdentifier: 
+  itemName: Tennis Ball Cannon
+  itemDescription: Serves them right!
+  itemValue: 75
+  itemSprite: {fileID: -859519894, guid: 510812d92e72e1941887c7b675838739, type: 3}
+  weaponName: Handgun
+  weaponDescription: Simple handgun
+  infiniteAmmo: 0
+  infiniteClip: 0
+  m_weaponType: 0
+  isMain: 1
+  isSecondary: 0
+  isMelee: 0
+  m_projectileDefinition: {fileID: 11400000, guid: 4221f18c626cb0f419604b7f0d9d4ec7, type: 2}
+  currencyValue: 75
+  canFireContinuously: 0
+  canBeCharged: 0
+  startingAmmo: 80
+  currentAmmo: 80
+  maxAmmo: 80
+  startingClip: 5
+  currentClip: 5
+  maxClip: 5
+  firingRate: 0.25
+  reloadTime: 1
+  impulsionDirection: {x: 0, y: 1, z: 2}
+  impulsionForce: 5
+  damage: 5
+  knockback: 2.5
+  spread: 10
+  range: 5
+  bulletsNumber: 10
+  chargeTime: 0
+  needsFullCharge: 0
+  shootingStrategy: {fileID: 11400000, guid: c85fe1238f49d75428b7008cbfdfac4a, type: 2}
+  projectileStrategies:
+  - {fileID: 11400000, guid: 904b6c5e603883244a54f44094c9c07c, type: 2}
+  bulletHole: {fileID: 5792683063871329260, guid: 91294ae40b06c3e448e666c7f71369c5, type: 3}
+  weaponUISprite: {fileID: -859519894, guid: 510812d92e72e1941887c7b675838739, type: 3}
+  weaponPlayerSprite: {fileID: 1157590670, guid: c7cf39e5c43dac447be61702ef8c358c, type: 3}
+  weaponFiringPlayerSprite: {fileID: 1965828755, guid: c7cf39e5c43dac447be61702ef8c358c, type: 3}
+  animator: {fileID: 0}
+  shootingSound:
+  - {fileID: 8300000, guid: c28f35dd729d28f4b8f576d5b26f2a6d, type: 3}
+  - {fileID: 8300000, guid: 8a3c70a697db09b44a141932bdf378d5, type: 3}
+  - {fileID: 8300000, guid: ce30e7cff616e424fb39befaece9a168, type: 3}
+  - {fileID: 8300000, guid: 816ea8b2bccadc14980d7356b70c2228, type: 3}
+  - {fileID: 8300000, guid: 7db19f2829728ff459b466658b95ef83, type: 3}
+  reloadSentenceSound:
+  - {fileID: 8300000, guid: 5d240e5c580e9e7419b913460135938b, type: 3}
+  - {fileID: 8300000, guid: ae2d3601ced01ef44bf3c050f4435bd4, type: 3}
+  - {fileID: 8300000, guid: 463335d120814bc48b2af6bb98b01182, type: 3}
+  reloadSound: {fileID: 8300000, guid: 786448ee4598f524aa6a26c7c54211aa, type: 3}
+  emptyClickSound: {fileID: 8300000, guid: 944bd3f25f83dad4baea5cd7afb251a3, type: 3}

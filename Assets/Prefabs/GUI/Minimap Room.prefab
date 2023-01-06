@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5643629133844199454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7871194955972309890}
+  - component: {fileID: 7370378039769927650}
+  - component: {fileID: 7049102881209056198}
+  m_Layer: 0
+  m_Name: Minimap Room
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7871194955972309890
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5643629133844199454}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 4, y: 4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7370378039769927650
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5643629133844199454}
+  m_CullTransparentMesh: 1
+--- !u!114 &7049102881209056198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5643629133844199454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4533156551a26b749b40ff95b5d9ec16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorImagePrefab: {fileID: 8404056573390546114, guid: cab8444800c8ba94b8cf793be5184c1d, type: 3}
+  room1x1ImagePrefab: {fileID: 7482659911590508317, guid: c9d30aa9aa594df4dabd5704dbd7da5b, type: 3}
+  room2x1ImagePrefab: {fileID: 7482659911590508317, guid: 0a193d2e456474046a666071b14f81c2, type: 3}
+  room2x2ImagePrefab: {fileID: 7482659911590508317, guid: 48e8fd013490b0940bf91312f66664a9, type: 3}
+  roomLImagePrefab: {fileID: 7482659911590508317, guid: 34751b50be512a945b4896a0cbdd7f16, type: 3}

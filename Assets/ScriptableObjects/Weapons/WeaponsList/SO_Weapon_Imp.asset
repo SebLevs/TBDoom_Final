@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62355733d51508349b066ba42d18111e, type: 3}
+  m_Name: SO_Weapon_Imp
+  m_EditorClassIdentifier: 
+  itemName: 
+  itemDescription: 
+  itemValue: 0
+  itemSprite: {fileID: 0}
+  weaponName: 
+  weaponDescription: 
+  infiniteAmmo: 0
+  infiniteClip: 0
+  m_weaponType: 0
+  isMain: 0
+  isSecondary: 0
+  isMelee: 0
+  m_projectileDefinition: {fileID: 11400000, guid: 0ced96b1a0d72fd44899da0d78e8045b, type: 2}
+  currencyValue: 10
+  canFireContinuously: 0
+  canBeCharged: 0
+  startingAmmo: 1
+  currentAmmo: 1
+  maxAmmo: 1
+  startingClip: 1
+  currentClip: 1
+  maxClip: 1
+  firingRate: 1.5
+  reloadTime: 0
+  impulsionDirection: {x: 0, y: 0, z: 0}
+  impulsionForce: 0
+  damage: 5
+  knockback: 0
+  spread: 0
+  range: 1
+  bulletsNumber: 0
+  chargeTime: 0
+  needsFullCharge: 0
+  shootingStrategy: {fileID: 11400000, guid: c85fe1238f49d75428b7008cbfdfac4a, type: 2}
+  projectileStrategies: []
+  bulletHole: {fileID: 5792683063871329260, guid: 807922f1559cdcb45bb90d29e7bf3769, type: 3}
+  weaponUISprite: {fileID: 0}
+  weaponPlayerSprite: {fileID: 0}
+  weaponFiringPlayerSprite: {fileID: 0}
+  animator: {fileID: 0}
+  shootingSound: []
+  reloadSentenceSound: []
+  reloadSound: {fileID: 0}
+  emptyClickSound: {fileID: 0}

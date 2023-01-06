@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62355733d51508349b066ba42d18111e, type: 3}
+  m_Name: MolotovSO
+  m_EditorClassIdentifier: 
+  itemName: 
+  itemDescription: 
+  itemValue: 0
+  itemSprite: {fileID: 0}
+  weaponName: Molotov
+  weaponDescription: Explode in a fiery mess
+  infiniteAmmo: 0
+  infiniteClip: 0
+  m_weaponType: 0
+  isMain: 0
+  isSecondary: 1
+  isMelee: 0
+  m_projectileDefinition: {fileID: 11400000, guid: 1221206c92529d54791c5eb19b646b31, type: 2}
+  currencyValue: 5
+  canFireContinuously: 0
+  canBeCharged: 0
+  startingAmmo: 0
+  currentAmmo: 0
+  maxAmmo: 0
+  startingClip: 3
+  currentClip: 3
+  maxClip: 99
+  firingRate: 1
+  reloadTime: 0
+  impulsionDirection: {x: 0, y: 1, z: 1}
+  impulsionForce: 5
+  damage: 25
+  knockback: 0
+  spread: 0
+  range: 0
+  bulletsNumber: 0
+  chargeTime: 0
+  needsFullCharge: 0
+  shootingStrategy: {fileID: 0}
+  projectileStrategies:
+  - {fileID: 11400000, guid: 6cd4f2e2d04639349b7abbfe37149cbf, type: 2}
+  bulletHole: {fileID: 0}
+  weaponUISprite: {fileID: 1613955683, guid: f7911482f6d5373439b4ccf8b4a0622a, type: 3}
+  weaponPlayerSprite: {fileID: 0}
+  weaponFiringPlayerSprite: {fileID: 0}
+  animator: {fileID: 0}
+  shootingSound: []
+  reloadSentenceSound: []
+  reloadSound: {fileID: 0}
+  emptyClickSound: {fileID: 0}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51a904eaad2e9fc4a87b2ba1d2d89ab2, type: 3}
+  m_Name: SO_PS_AutoAimInFlight
+  m_EditorClassIdentifier: 
+  isDebugOn: 0
+  m_projectileStrategyType: 6
+  m_projectileStrategyExecutionType: 1
+  m_exceptionProjectileStrategyType: 
+  m_strategyName: AutoAimInFlight
+  m_strategyDescription: Projectiles automatically targets enemies
+  m_damageMultiplier: 0
+  m_targetMask:
+    serializedVersion: 2
+    m_Bits: 0
+  m_probability: 100
+  m_onlyAppliesOnLivingEntity: 0
+  m_particleSystem: {fileID: 0}
+  m_sprite: {fileID: 0}
+  radius: 1
+  capsuleRadius: 0.5
+  damage: 0
+  projectile: {fileID: 0}
+  lerpIntensity: 0.05

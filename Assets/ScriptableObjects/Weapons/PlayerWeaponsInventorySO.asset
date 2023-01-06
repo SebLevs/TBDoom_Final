@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dd5b66272fae1e428361bba782974d5, type: 3}
+  m_Name: PlayerWeaponsInventorySO
+  m_EditorClassIdentifier: 
+  mainWeaponHasChangedGE: {fileID: 11400000, guid: d3db51151e5bad64096e27886a5b4b05, type: 2}
+  secondaryWeaponHasChangedGE: {fileID: 11400000, guid: be689ae7513c6ff4698930948edbc9c8, type: 2}
+  maxMeleeWeapons: 1
+  maxMainWeapons: 3
+  maxSecondaryWeapons: 1
+  defaultMeleeWeapons:
+  - {fileID: 11400000, guid: 20772d244dbf58d47bfa4dd53c569e1f, type: 2}
+  carriedMeleeWeapons:
+  - {fileID: 0}
+  equippedMeleeWeapon: {fileID: 0}
+  defaultMainWeapons:
+  - {fileID: 11400000, guid: 2fec7de208af184448023900d178369c, type: 2}
+  carriedMainWeapons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  equippedMainWeapon: {fileID: 0}
+  defaultSecondaryWeapons:
+  - {fileID: 11400000, guid: 6ba54ba5125b5ab47932b6d5b9296e45, type: 2}
+  carriedSecondaryWeapons:
+  - {fileID: 0}
+  equippedSecondaryWeapon: {fileID: 0}

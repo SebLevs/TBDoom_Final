@@ -1,0 +1,4 @@
+Note to self regarding repetitive code for array linear data structure until...
+... a way to create generic scriptable objects is found:
+
+https://www.youtube.com/watch?v=Qn977W9HjWM

@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4301717328495421958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4301717328495421957}
+  - component: {fileID: 4301717328495421956}
+  m_Layer: 0
+  m_Name: MapLayout
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4301717328495421957
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4301717328495421958}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4301717328495421956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4301717328495421958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea748705b5b0e5a4d9604b2e4061885a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapLayoutInformation: {fileID: 11400000, guid: fbe5b2935dbd3b64db1ac0d24dd668d9, type: 2}
+  minRooms: 20
+  maxRooms: 25
+  roomSize: 15
+  secretRooms: 1
+  bossRooms: 1
+  treasureRooms: 1
+  specialRooms: 2
+  maxXGridSize: 4
+  maxYGridSize: 3
+  startingRoomsList: {fileID: 11400000, guid: 0a6556125b79dbf418bfa5d22a4415af, type: 2}
+  normalRoomsList: {fileID: 11400000, guid: b80ad4d6119d16c4eb950cfd4629da00, type: 2}
+  bossRoomsList: {fileID: 11400000, guid: 093509e45acb8194cb7f59b5a01aa915, type: 2}
+  secretRoomsList: {fileID: 11400000, guid: 042a27dd3cc1edd4595d917111c39782, type: 2}
+  specialRoomsList: {fileID: 11400000, guid: 6bc2521c0bb83be4dba8aaee58ba7540, type: 2}
+  treasureRoomsList: {fileID: 11400000, guid: 3fea4f8dfde92c64abc677d6c1255288, type: 2}
+  emptyRoomList: {fileID: 0}
+  roomGenerationRandom: {fileID: 11400000, guid: 05e3e3dceb3b7bd408cb10eed3b2f650, type: 2}
+  myJSON: {fileID: 4900000, guid: f1ff0f5e9fbefef409c102fd04348bb0, type: 3}

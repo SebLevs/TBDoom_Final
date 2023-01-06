@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5377402656156254962
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5250425310967324644, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: m_Name
+      value: BT_Melee_Imp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5250425310967324649, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: myTreeSO
+      value: 
+      objectReference: {fileID: 11400000, guid: e9af60fc119f0204e84d217dfecc9497, type: 2}
+    - target: {fileID: 5250425310967324649, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: animContainer.values.Array.data[0].animClip
+      value: 
+      objectReference: {fileID: 7400000, guid: 0dd3b61b307bb444b865bc3c723b57a3, type: 2}
+    - target: {fileID: 5250425310967324650, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5250425310967324650, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5250425310967324650, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5250425310967324650, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 5250425310967324650, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5250425310967324650, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5250425310967324650, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5250425310967324650, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5250425310967324650, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5250425310967324650, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5250425310967324650, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5250425310967324659, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: uniqueID
+      value: 6388713409944480845
+      objectReference: {fileID: 0}
+    - target: {fileID: 5250425310967324666, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 05107005125a37748a862f560025d09e, type: 2}
+    - target: {fileID: 5250425310967324667, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: myDrops.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5250425310967324667, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: myDrops.Array.data[0]
+      value: 
+      objectReference: {fileID: 1904513868067826316, guid: dd77c72568d1be44fa3b9ad678e743d8, type: 3}
+    - target: {fileID: 5250425310967324667, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: myDrops.Array.data[1]
+      value: 
+      objectReference: {fileID: 953420585989087193, guid: d23f4139bcba855448e288810e114b8a, type: 3}
+    - target: {fileID: 5250425310967324667, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: myDrops.Array.data[2]
+      value: 
+      objectReference: {fileID: 2989215637769811155, guid: 7737965b165c68641b2c5ab578b243e5, type: 3}
+    - target: {fileID: 5250425310967324667, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: myDrops.Array.data[3]
+      value: 
+      objectReference: {fileID: 418731571920632838, guid: 67d2eb267d4dd404299b59ec5eaa6bc1, type: 3}
+    - target: {fileID: 5250425311269488683, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -859627783, guid: 6e4c1be9990e5a04b8537dd9e0489495, type: 3}
+    - target: {fileID: 5250425311293238072, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: m_Name
+      value: Dagger
+      objectReference: {fileID: 0}
+    - target: {fileID: 5250425311293238073, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 11400000, guid: a568e3c9f18dc644eb3713d6f731f08d, type: 2}
+    - target: {fileID: 5250425311293238073, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: projectileSpawner
+      value: 
+      objectReference: {fileID: 8667840696547650048, guid: fed74bb5d1a3c864f8ae0089ca261e95, type: 3}
+    - target: {fileID: 5250425311293238073, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: m_targetMask.m_Bits
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409302196145395406, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: myDrops.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409302196145395406, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: myDrops.Array.data[0]
+      value: 
+      objectReference: {fileID: 1904513868067826316, guid: dd77c72568d1be44fa3b9ad678e743d8, type: 3}
+    - target: {fileID: 8409302196145395406, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: myDrops.Array.data[1]
+      value: 
+      objectReference: {fileID: 418731571920632838, guid: 67d2eb267d4dd404299b59ec5eaa6bc1, type: 3}
+    - target: {fileID: 8409302196145395406, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}
+      propertyPath: myDrops.Array.data[2]
+      value: 
+      objectReference: {fileID: 2989215637769811155, guid: 7737965b165c68641b2c5ab578b243e5, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f603db6c7de4c2a468058af4577a5fc0, type: 3}

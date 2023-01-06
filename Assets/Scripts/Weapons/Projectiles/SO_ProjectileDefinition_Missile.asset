@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71d296af2c62d634c9ed106919938216, type: 3}
+  m_Name: SO_ProjectileDefinition_Missile
+  m_EditorClassIdentifier: 
+  m_projectileType: 0
+  m_projectileSpeed: 5
+  m_colliderRadius: 0.05
+  m_colliderHeight: 0.5
+  m_affectedByGravity: 0
+  m_physicalProjectileSprites:
+  - {fileID: -154214736, guid: b2ab675c8da87c948ace0417a34b6a96, type: 3}
+  - {fileID: -414687786, guid: b2ab675c8da87c948ace0417a34b6a96, type: 3}
+  - {fileID: -250955135, guid: b2ab675c8da87c948ace0417a34b6a96, type: 3}
+  - {fileID: -1522711160, guid: b2ab675c8da87c948ace0417a34b6a96, type: 3}
+  - {fileID: -199537651, guid: b2ab675c8da87c948ace0417a34b6a96, type: 3}
+  - {fileID: -487756368, guid: b2ab675c8da87c948ace0417a34b6a96, type: 3}
+  - {fileID: 64919002, guid: b2ab675c8da87c948ace0417a34b6a96, type: 3}
+  - {fileID: -909530524, guid: b2ab675c8da87c948ace0417a34b6a96, type: 3}
+  m_showRaycastTrajectory: 0
+  m_meleeProjectileSprite: {fileID: 0}
+  m_meleeProjectileWidth: 0
+  m_meleeProjectileThickness: 0

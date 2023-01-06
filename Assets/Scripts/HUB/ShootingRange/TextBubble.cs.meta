@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: beaaea684b7a7904482752fed233be06
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - textBubbleSO: {fileID: 11400000, guid: ae65d018b71bc714f9113536b9d0aa11, type: 2}
+  - myPrintImplementation: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

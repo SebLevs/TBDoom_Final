@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Editor/UI%20Builder/Behaviour%20Tree/BTEditorWindow.uss?fileID=7433441132597879392&amp;guid=d8424a4b68ed08e41a0f72cc1b9352b8&amp;type=3#BTEditorWindow" />
+    <uie:Toolbar>
+        <uie:ToolbarMenu display-tooltip-when-elided="true" text="Assets" />
+    </uie:Toolbar>
+    <BTSplitView fixed-pane-initial-dimension="200">
+        <ui:VisualElement name="LeftPannel" style="flex-shrink: 1; flex-grow: 1;">
+            <ui:Label text="Inspector" display-tooltip-when-elided="true" name="Label_Inspector" style="background-color: rgb(37, 37, 37);" />
+            <BTInspectorView />
+        </ui:VisualElement>
+        <ui:VisualElement name="RightPannel">
+            <ui:VisualElement name="Buttons" style="flex-grow: 0; flex-direction: row; flex-wrap: wrap; justify-content: flex-start; align-items: center; height: 27px;">
+                <ui:Button text="Save" display-tooltip-when-elided="true" name="ButtonSave" focusable="true" style="flex-direction: row; justify-content: center;" />
+            </ui:VisualElement>
+            <BTGraphView focusable="true" name="BTGraphView" style="flex-grow: 1;" />
+        </ui:VisualElement>
+    </BTSplitView>
+</ui:UXML>
